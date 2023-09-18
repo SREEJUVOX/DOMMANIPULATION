@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation</title>
+    <link rel="stylesheet" href="dom.css">
+</head>
+
+<body>
+
+
+
+  
+    <h1>DOM Manipulation</h1>
+
+
+    <div class="" style="max-width: 500px;">
+        
+        <div class="" style="text-align: center;">
+            <button id="button" >Change Paragraph content</button>
+        </div>
+        
+        <p id="paragraph" style="text-align: center;">In website development, DOM stands for Document Object Model. It is a programming interface that allows us to create, change, or remove elements from a website document. DOM manipulation is when you use JavaScript to add, remove, and modify elements of a website. It is very common in web development.
+    </div>
+
+
+
+
+
+    <script>
+
+        
+        document.getElementById("button") 
+        
+        console.log(document.getElementById("button"))
+    
+        const button = document.getElementById("button");
+        document.getElementById("paragraph");
+        
+        console.log(document.getElementById("paragraph"))
+        
+         const paragraph = document.getElementById("paragraph");
+
+    
+        button.addEventListener("click",function (params) {
+            paragraph.innerHTML = 'You have clicked'
+        }) 
+        
+
+
+    </script>
+
+</body>
+
+</html>

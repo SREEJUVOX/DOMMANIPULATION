@@ -1,0 +1,25 @@
+
+        body {
+            background-color: #087022;
+            color: #F5F5F5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+
+        button{
+            border: 1px dashed  #F5F5F5;
+            background-color: transparent;
+            color: #F5F5F5;
+            padding:10px;
+            transition: 0.2s;}
+
+            button:hover{
+                background-color: #F5F5F5;
+                color: #8f076f;
+                transition: 0.2s;
+                cursor: pointer;
+            }
+    
